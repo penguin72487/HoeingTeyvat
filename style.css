@@ -1,0 +1,108 @@
+body{
+    background-image: url(1123013.jpg);/*https://images5.alphacoders.com/112/1123013.jpg*/
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment: fixed;
+
+  }
+.flexTopblock{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+.sideTable{
+    width: 10%;
+    height: auto;
+    background-color: #2890d9;
+}
+
+.headTable{
+    width: 100%;
+    height: 64px;
+    background-color: #fa0;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+.side-headImg{
+
+    width: auto;
+    height: auto;
+    padding: 10px;
+    
+}
+.side-headImg img{
+    width: 100%;
+}
+.side-addBlock{
+    width: auto;
+    padding:  10px;
+    margin: 10px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffffE6;
+    border-width: 10px 0px 0px 10px;
+    border-style: solid;
+    border-left: #000;
+    border-top: #000;
+    text-decoration: none;
+
+}
+.side-addBlock a{
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    text-decoration:none;
+    
+}
+
+.headTable h1{
+    font-size: auto;
+    
+    padding: 10px;
+    margin: auto;
+    
+}
+.constBlock{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 1px;
+    padding: 10px 0px;
+    margin:  0px;
+    /*position: fixed;*/
+    opacity: 0.76;
+}
+.constBlock h1{
+    color: #000;
+    text-align: center;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.constBlock h2{ 
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.addBlock {
+    width: 95%;
+    height: auto;
+    text-align: center; 
+    padding: 10px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffffE6;
+    border-width: 10px 0px 0px 10px;
+    border-style: solid;
+    border-left: #000;
+    border-top: #000;
+    opacity: 1;
+}
+.addBlock p{
+    color: #000;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
