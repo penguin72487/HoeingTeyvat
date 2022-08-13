@@ -1,0 +1,92 @@
+body{
+    background-image: url(1123013.jpg);/*https://images5.alphacoders.com/112/1123013.jpg*/
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment: fixed;
+    margin :0px;
+
+  }
+.full-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+
+
+}
+
+/* side content */
+.full-container .sidebar-container{
+    width: 96px;
+    height: auto;
+    background-color: #f9f9fb;
+    padding-top: 96px;
+    text-decoration: none;
+
+
+}
+.full-container .sidebar-container .sidebar-Linkbotton{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: 0px 0px 10px 0px;
+
+    text-decoration: none;
+    font-size: 24px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffffE6;
+    border-width: 10px 0px 0px 10px;
+    border-style: solid;
+    border-left: #000;
+    border-top: #000;
+    text-align: center;
+    
+}
+.full-container .sidebar-container .sidebar-Linkbotton a{
+    text-decoration: none;
+}
+.full-container .sidebar-container img{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+
+
+/* main content */
+.full-container .main-container{
+
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+
+    opacity: 0.8;
+}
+.full-container .main-container .top-bar-container{
+    
+    width: 100%;
+    height: 64px;
+    background-color: #fa0;
+    padding: 0px 0px 10px 100px;
+    margin :0px 0px 0px 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    text-align: left;
+}
+.full-container .main-container .add-bar-container{
+    background-color: #fff;
+    padding:  10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffffE6;
+    border-width: 10px 0px 0px 10px;
+    border-style: solid;
+    border-left: #000;
+    border-top: #000;
+    text-align: center;
+    opacity: 0.8;
+}
