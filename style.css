@@ -11,8 +11,15 @@ body{
     display: flex;
     
 }
+
+.mainBlock{
+    width: 100%;
+    padding: 10px 0px;
+    margin:  0px;
+}
+
 .sideTable{
-    width: 10%;
+    width: 5%;
     height: auto;
     background-color: #2890d9;
 }
@@ -21,8 +28,10 @@ body{
     width: 100%;
     height: 64px;
     background-color: #fa0;
-    padding: 0px;
-    margin: 0px;
+    padding: auto;
+    margin: auto;
+    position: fixed;
+    top: 0px;
     
     
 }
@@ -31,7 +40,7 @@ body{
     width: auto;
     height: auto;
     padding: 10px;
-    
+        
 }
 .side-headImg img{
     width: 100%;
@@ -51,18 +60,16 @@ body{
     text-decoration: none;
 
 }
-.side-addBlock a{
+.botton{
     width: 100%;
     height: auto;
-    font-size: 32px;
-    text-decoration:none;
-    
+    text-decoration: none;
 }
 
-.headTable h1{
+.constBlock .headTable h1{
     font-size: auto;
-    
-    padding: 10px;
+    margin-top: auto;
+    padding: auto;
     margin: auto;
     
 }
@@ -80,6 +87,7 @@ body{
     color: #000;
     text-align: center;    
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
 }
 .constBlock h2{ 
     color: #000;
