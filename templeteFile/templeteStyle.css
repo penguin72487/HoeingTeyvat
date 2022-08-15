@@ -30,7 +30,7 @@ body{
     height: auto;
     padding: auto;
     margin: 0px 0px 10px 0px;
-
+    
     text-decoration: none;
     font-size: 24px;
 
@@ -41,10 +41,32 @@ body{
     border-left: #000;
     border-top: #000;
     text-align: center;
+    transition: background-color 0.6s 0s ease;
     
 }
+
+.full-container .sidebar-container .sidebar-Linkbotton:hover{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: 0px 0px 10px 0px;
+    
+    text-decoration: none;
+    font-size: 24px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fa0;
+    border-width: 10px 0px 0px 10px;
+    border-style: solid;
+    border-left: #000;
+    border-top: #000;
+    text-align: center;
+    
+}
+
 .full-container .sidebar-container .sidebar-Linkbotton a{
     text-decoration: none;
+    color : #000;
 }
 .full-container .sidebar-container img{
     width: 100%;
