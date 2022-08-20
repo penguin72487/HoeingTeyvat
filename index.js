@@ -1,19 +1,41 @@
 const { fstat } = require('fs');
 const http = require('http');
 const fs = require('fs');
+const path = require('path');
 const port = 3000;
 const ip = "192.168.50.211";
 
 const sendResponse = (htmlFile,statusCode,response)=>{
-    fs.readFileSync(htmlFile,(error,data)=>{
+    fs.readFile(htmlFile,(error,data)=>{
+        
         if(error){
             response.statusCode = 500;
             response.setHeader('Content-Type', 'text/plain');
             response.end("Sorry, it's penguin's falt");
         }
-        else{
+        let extName = path.extname(htmlFile);
+        let contentType = 'text/html';
+    
+        switch (extName) {
+            case '.css':
+                contentType = 'text/css';
+                break;
+            case '.js':
+                contentType = 'text/javascript';
+                break;
+            case '.json':
+                contentType = 'application/json';
+                break;
+            case '.png':
+                contentType = 'image/png';
+                break;
+            case '.jpg':
+                contentType = 'image/jpg';
+                break;
+        }
+        {
             response.statusCode = statusCode;
-            response.setHeader('Content-Type', 'text/html');
+            response.setHeader('Content-Type', contentType);
             response.end(data);
 
         }
