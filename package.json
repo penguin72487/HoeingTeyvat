@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/penguin72487/HoeingTeyvat#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "express": "^4.18.1"
   }
 }
