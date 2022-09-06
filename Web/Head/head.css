@@ -85,6 +85,21 @@ body{
     z-index: 1;
     top: 0px;
     text-align: left;
+    display: flex;
+}
+.full-container .main-container .top-bar-container .top-bar-Linkbotton{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(235, 231, 29);
+    padding: 0px 0px 10px 10px;
+    margin : auto;
+    text-align: center;
+    font-size: 24px;
+}
+.full-container .main-container .top-bar-container .top-bar-Linkbotton a{
+    padding:  10px;
+    margin: 10px;
+    text-align: center;
 }
 .full-container .main-container .add-bar-container{
     background-color: #fff;
