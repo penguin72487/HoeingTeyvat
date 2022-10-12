@@ -9,7 +9,7 @@ app.use(express.static(__dirname +'/Web'));
 
 
 const port = 3000;
-const ip = "192.168.50.211";
+const ip = "10.25.234.7";
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/head_Bootstrap.html'));
 
