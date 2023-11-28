@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const port = 3000;
-const ip = "192.168.50.211";
+const ip = "192.168.50.200";
 
 const sendResponse = (htmlFile,statusCode,response)=>{
     fs.readFile(htmlFile,(error,data)=>{
